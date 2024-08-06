@@ -1,12 +1,9 @@
-# skywatch
+# SKYWATCH
 
-Skywatch est une application simple pour consulter les conditions météorologiques actuelles pour une ville donnée. Elle utilise une API météo pour récupérer les données et est construite avec du JavaScript vanilla, HTML et CSS.
+**Skywatch** is a real-time weather application built with Vanilla JavaScript and the Weather API. It provides current weather conditions, hourly and daily forecasts, and allows users to search for weather by city or coordinates. Skywatch features a clean and intuitive interface, making it easy to stay updated with the latest weather information wherever you are.
 
-Fonctionnalités:
-- Recherche de la météo pour n'importe quelle ville.
-- Affichage des conditions météorologiques actuelles : température, humidité, conditions météorologiques générales, etc.
-- Interface utilisateur simple et réactive.
+**features**
 
-Prérequis:
-- Navigateur moderne (Chrome, Firefox, Edge, Safari, etc.)
-- Connexion Internet pour accéder à l'API météo
+- **Current Weather Conditions**: Get up-to-date weather information including temperature, humidity, and conditions for any location.
+- **Hourly and Daily Forecasts**: View detailed forecasts to plan your day or week ahead.
+- **Location Search**: Easily find weather data by entering city names or geographical coordinates.
