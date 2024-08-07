@@ -8,3 +8,15 @@
 'use strict';
 
 const api_key = "9967fafade47dfdb08616e83012b1522"
+
+/**
+ * Fetch data from server
+ * @param {string} URL 
+ * @param {Function} callback
+ */
+
+export const fetchData = function (URL, callback) {
+ fetch(`${URL}&appid=${api_key}`)
+    .then(res = res.json)
+    .then(data = callback(data));
+}
